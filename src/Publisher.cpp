@@ -136,7 +136,7 @@ bool Publisher::writeLandmarksCsvDescription()
     return false;
   if (!csvLandmarksFile_->good())
     return false;
-  *csvLandmarksFile_ << ", " << "id" << ", " << "l_x" << ", " << "l_y" << ", "
+  *csvLandmarksFile_ << "id" << ", " << "l_x" << ", " << "l_y" << ", "
                      << "l_z" << ", " << "l_w" << ", " << "quality, "
                      << "distance" << std::endl;
   return true;

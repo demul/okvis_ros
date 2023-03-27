@@ -3,6 +3,9 @@
     <param name="mesh_file" value="firefly.dae" />
     <param name="camera_topic_0" value="/cam0/image_raw" />
     <param name="camera_topic_1" value="/cam1/image_raw" />
+    <param name="camera_topic_2" value="/cam2/image_raw" />
+    <param name="camera_topic_3" value="/cam3/image_raw" />
+    <param name="camera_topic_4" value="/cam4/image_raw" />
     <param name="imu_topic" value="/imu0" />
   </node>
 </launch>
